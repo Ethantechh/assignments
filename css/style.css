@@ -1,0 +1,8 @@
+body {
+	background-image: url('../img/backround.png'); 
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+	}
+ #aboutmetext {
+    align: center;
+ }
