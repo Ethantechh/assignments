@@ -5,3 +5,12 @@ body {
     color: saddlebrown;
     font-size: large;
 	}
+a {
+    color: rgb(139, 69, 19);
+    }
+a:hover {
+    color: rgb(0, 0, 255);
+}
+a:hover:visited {
+    color: rgb(127, 0, 255);
+}

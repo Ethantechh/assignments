@@ -4,5 +4,17 @@ body {
     color: white;
 	}
  #aboutmetext {
-    align: center;
+    box-align: center;
  }
+a {
+    color: rgb(200, 200, 255);
+    }
+a:visited {
+    color: rgb(255, 200, 255);
+    }
+a:hover {
+    color: rgb(100, 100, 255);
+}
+a:hover:visited {
+    color: rgb(255, 100, 255);
+}
