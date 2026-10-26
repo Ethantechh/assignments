@@ -1,3 +1,29 @@
+body {
+	background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    }
+
+a {
+    color: rgb(0, 0, 200);
+    }
+
+a:visited {
+    color: rgb(200, 0, 200);
+    }
+
+a:hover {
+	color: rgb(0, 0, 200);
+    }
+
+a:hover:visited {
+    color: rgb(255, 0, 255);
+    }
+
+a:hover:active {
+    color: rgb(255, 0, 0);
+    }
+
 .dates {
     font-weight: bolder;
     font-size: small;
