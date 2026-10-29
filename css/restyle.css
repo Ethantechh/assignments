@@ -48,3 +48,19 @@ li {
 #cookies {
 	border: 10px solid;
 	}
+
+nav>ul {
+    list-style-type: none;
+    }
+
+nav>li {
+    display:inline-block
+    }
+
+nav>a {
+    display:inline-block
+    }
+
+nav>a {
+    text-decoration:none;
+    }

@@ -1,5 +1,5 @@
 body {
-	background-image: url('../img/backround.png'); 
+	 background-image: url('../img/backround.png'); 
     font-family: 'Courier New', Courier, monospace;
     color: white;
     }
@@ -13,13 +13,32 @@ a:visited {
     }
 
 a:hover {
-	color: rgb(100, 100, 255);
+    color: rgb(100, 100, 255);
+	 background-color: rgb(0, 0, 100);
     }
 
 a:hover:visited {
     color: rgb(255, 100, 255);
+	 background-color: rgb(100, 0, 100);
     }
 
 a:hover:active {
     color: rgb(255, 100, 100);
+	 background-color: rgb(100, 0, 0);
+    }
+
+nav>ul {
+    list-style-type: none;
+    }
+
+nav>li {
+    display:inline-block
+    }
+
+nav>a {
+    display:inline-block
+    }
+
+nav>a {
+    text-decoration:none;
     }
